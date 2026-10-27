@@ -290,7 +290,7 @@ label:has(#spd),label:has(#fxbox),label:has(#fitbox),#ttstest{display:none!impor
     </aside>
   </div>
 
-  <p class="foot">Real values: 4 of 5 certified, 7,669 source records, 297 of 300 cases, Triage 88 of 90 with Groundedness 89.7% against a 90% bar, Remediation 101 of 102, escalation ESC-REM211-0003-20261121, 11,649 audit events, a live Remediation run (48.6 s) and a live blocked cross-tenant request (32.9 s, 6 audit events). All data is synthetic. Tiles marked illustrative are typed-in samples and stay that way for the demo. Your narration is saved in this browser only, so use Copy all scenes to keep a copy elsewhere.</p>
+  <p class="foot">Real values: 4 of 5 certified, 7,669 source records, 297 of 300 cases, Triage 88 of 90 with Groundedness 89.7% against a 90% bar, Remediation 101 of 102, escalation ESC-REM211-0003-20261121, 11,649 audit events, a live Remediation run (48.6 s) and a live blocked cross-tenant request (32.9 s, 6 audit events). All data is synthetic. Figures are the 24 October 2026 snapshot; Triage has since passed a rerun (runs 26 and 27, 90 of 90, certified), so the live Agent Console can differ. Tiles marked illustrative are typed-in samples and stay that way for the demo. Your narration is saved in this browser only, so use Copy all scenes to keep a copy elsewhere.</p>
 </div>
 
 <script>
@@ -305,7 +305,7 @@ var SCENES=[
   hint:'Click the Triage card to open its flow.',
   draft:'Vindexion is an enterprise risk platform where AI agents do the analysis and software does the arithmetic. These five agents were built and tested on synthetic data in our Test Kitchen. Four of the five agents that have been evaluated are certified, 297 of 300 test cases. The fifth, Triage, is marked not certified on its latest run, and we show that.',
   points:['Jump straight to the Certified agents section, not the catalog header at the top of the page.','Say "four of the five agents that have been evaluated".','Authority level 2 means the agent analyzes and recommends.'],
-  caption:'Source: Test Kitchen evaluation, snapshot of Oct 24, 2026. Synthetic data.'},
+  caption:'Source: Test Kitchen evaluation, snapshot of Oct 24, 2026. Synthetic data. Triage later passed a rerun (runs 26 and 27, 90 of 90, certified); the live Agent Console shows the latest valid run.'},
  {id:'fleet',short:'The five agents',sub:'Platform and Test Kitchen',where:'Agent Console, Agents and certification',url:'Test Kitchen app (separate tab)',
   hint:'Click an agent to see its job, its latest finding and what it cannot tell us.',
   draft:'Each of these five agents has its own job. Control Validation checks whether the fixes an organization says it made are proven by independent evidence. Access Review finds leavers who still have access. Policy Exception finds risk acceptances that have lapsed while the problem remains. Remediation SLA finds what is past its deadline. Triage ranks the open vulnerabilities. Together they read about 7,700 source records, and every number comes from a data service.',
@@ -330,7 +330,7 @@ var SCENES=[
   hint:'Switch between the two agents to compare.',
   draft:'We ran Triage and Remediation three times per case and held back unseen cases. Triage failed its groundedness threshold on the repeat run. We publish that, because certification that cannot fail is not certification.',
   points:['This block shows our misses: Triage groundedness 89.7% against 90%.','One verdict flip, one multi-turn case stopped by the 60,000-token limit.','Injection, fail-closed and tenant-boundary checks held at 100%.'],
-  caption:'88 of 90 and 101 of 102 cases; held-out 8 of 8 and 7 of 8.'},
+  caption:'88 of 90 and 101 of 102 cases; held-out 8 of 8 and 7 of 8. Snapshot of Oct 24, 2026. Triage later passed a rerun (runs 26 and 27, 90 of 90, certified); the live Agent Console shows the latest valid run.'},
  {id:'lineage',short:'Lineage map',sub:'Platform',where:'AI Agents and Operations, Lineage map',url:'vindexion.nyadvisorygroup.com',
   hint:'Click any row to see which agent and data service feed it.',
   draft:'Pick any element on a screen. The lineage map shows which agent feeds it, which data service computed it, and whether it is produced, partly wired, or planned. Where something is not wired yet, it says so.',
